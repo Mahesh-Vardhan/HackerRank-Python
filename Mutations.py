@@ -2,7 +2,6 @@ def mutate_string(string, position, character):
     if position < 1 or position > len(string):
         return "Invalid position."
     new_string = string[:position - 1] + character + string[position:]
-
     return new_string
 
 if __name__ == '__main__':
