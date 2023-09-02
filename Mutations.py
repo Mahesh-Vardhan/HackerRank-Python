@@ -1,5 +1,4 @@
 def mutate_string(string, position, character):
-    # Check if the position is within the valid range of the string
     if position < 1 or position > len(string):
         return "Invalid position."
 
