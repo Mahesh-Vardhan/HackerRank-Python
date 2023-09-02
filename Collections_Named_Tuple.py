@@ -2,6 +2,7 @@ N = int(input())
 names = input().split()
 index_num = names.index("MARKS")
 marks = 0
+
 for _ in range(0, N):
     Data_Input = input().split()
     Data_Input[index_num] = int(Data_Input[index_num])
