@@ -22,4 +22,3 @@ for i in range(number_of_students):
 final_names.sort()
 for perlu in final_names:
      print(perlu)
- 
